@@ -26,7 +26,7 @@ public extension UIScrollView {
         }
     }
     
-    convenience init(configuration: UIScrollView.UIKitConfiguration) {
+    convenience init(uiKitConfiguration: UIScrollView.UIKitConfiguration) {
         self.init()
         configuration.apply(to: self)
     }

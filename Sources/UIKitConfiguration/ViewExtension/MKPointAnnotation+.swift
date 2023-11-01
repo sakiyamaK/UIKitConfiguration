@@ -30,7 +30,7 @@ public extension MKPointAnnotation {
         }
     }
     
-    convenience init(configuration: MKPointAnnotation.UIKitConfiguration) {
+    convenience init(uiKitConfiguration: MKPointAnnotation.UIKitConfiguration) {
         self.init()
         configuration.apply(to: self)
     }

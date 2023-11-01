@@ -26,7 +26,7 @@ public extension UIControl {
         }
     }
     
-    convenience init(configuration: UIControl.UIKitConfiguration) {
+    convenience init(uiKitConfiguration: UIControl.UIKitConfiguration) {
         self.init()
         configuration.apply(to: self)
     }

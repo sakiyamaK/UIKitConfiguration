@@ -30,7 +30,7 @@ public extension UIBarItem {
         }
     }
     
-    convenience init(configuration: UIBarItem.UIKitConfiguration) {
+    convenience init(uiKitConfiguration: UIBarItem.UIKitConfiguration) {
         self.init()
         configuration.apply(to: self)
     }

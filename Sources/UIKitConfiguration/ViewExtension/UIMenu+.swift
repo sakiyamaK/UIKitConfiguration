@@ -26,7 +26,7 @@ public extension UIMenu {
         }
     }
     
-    convenience init(configuration: UIMenu.UIKitConfiguration) {
+    convenience init(uiKitConfiguration: UIMenu.UIKitConfiguration) {
         self.init()
         configuration.apply(to: self)
     }

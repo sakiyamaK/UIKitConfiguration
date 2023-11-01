@@ -26,7 +26,7 @@ public extension UITabBarController {
         }
     }
     
-    convenience init(configuration: UITabBarController.UIKitConfiguration) {
+    convenience init(uiKitConfiguration: UITabBarController.UIKitConfiguration) {
         self.init()
         configuration.apply(to: self)
     }

@@ -26,7 +26,7 @@ public extension UISearchBar {
         }
     }
     
-    convenience init(configuration: UISearchBar.UIKitConfiguration) {
+    convenience init(uiKitConfiguration: UISearchBar.UIKitConfiguration) {
         self.init()
         configuration.apply(to: self)
     }

@@ -26,7 +26,7 @@ public extension UIPickerView {
         }
     }
     
-    convenience init(configuration: UIPickerView.UIKitConfiguration) {
+    convenience init(uiKitConfiguration: UIPickerView.UIKitConfiguration) {
         self.init()
         configuration.apply(to: self)
     }

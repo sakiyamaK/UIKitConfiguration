@@ -26,7 +26,7 @@ public extension UIViewController {
         }
     }
     
-    convenience init(configuration: UIViewController.UIKitConfiguration) {
+    convenience init(uiKitConfiguration: UIViewController.UIKitConfiguration) {
         self.init()
         configuration.apply(to: self)
     }

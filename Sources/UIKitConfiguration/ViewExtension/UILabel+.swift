@@ -23,7 +23,7 @@ public extension UILabel {
         }
     }
     
-    convenience init(configuration: UILabel.UIKitConfiguration) {
+    convenience init(uiKitConfiguration: UILabel.UIKitConfiguration) {
         self.init()
         configuration.apply(to: self)
     }

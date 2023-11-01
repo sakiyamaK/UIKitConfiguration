@@ -26,7 +26,7 @@ public extension UISwitch {
         }
     }
     
-    convenience init(configuration: UISwitch.UIKitConfiguration) {
+    convenience init(uiKitConfiguration: UISwitch.UIKitConfiguration) {
         self.init()
         configuration.apply(to: self)
     }

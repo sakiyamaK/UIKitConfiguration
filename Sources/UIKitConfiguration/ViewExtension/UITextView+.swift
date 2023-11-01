@@ -26,7 +26,7 @@ public extension UITextView {
         }
     }
     
-    convenience init(configuration: UITextView.UIKitConfiguration) {
+    convenience init(uiKitConfiguration: UITextView.UIKitConfiguration) {
         self.init()
         configuration.apply(to: self)
     }

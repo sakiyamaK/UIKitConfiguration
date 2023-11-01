@@ -26,7 +26,7 @@ public extension UITextField {
         }
     }
     
-    convenience init(configuration: UITextField.UIKitConfiguration) {
+    convenience init(uiKitConfiguration: UITextField.UIKitConfiguration) {
         self.init()
         configuration.apply(to: self)
     }

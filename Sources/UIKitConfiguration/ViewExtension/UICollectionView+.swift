@@ -26,7 +26,7 @@ public extension UICollectionView {
         }
     }
     
-    convenience init(configuration: UICollectionView.UIKitConfiguration) {
+    convenience init(uiKitConfiguration: UICollectionView.UIKitConfiguration) {
         self.init()
         configuration.apply(to: self)
     }

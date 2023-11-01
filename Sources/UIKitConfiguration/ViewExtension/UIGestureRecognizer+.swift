@@ -26,7 +26,7 @@ public extension UIGestureRecognizer {
         }
     }
     
-    convenience init(configuration: UIGestureRecognizer.UIKitConfiguration) {
+    convenience init(uiKitConfiguration: UIGestureRecognizer.UIKitConfiguration) {
         self.init()
         configuration.apply(to: self)
     }

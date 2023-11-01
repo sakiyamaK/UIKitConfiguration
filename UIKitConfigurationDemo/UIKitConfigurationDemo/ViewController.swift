@@ -21,13 +21,13 @@ class ViewController: UIViewController {
     }()
 
     lazy var demoLabel1: UILabel = {
-        let label = UILabel(configuration: labelConfiguration1)
+        let label = UILabel(uiKitConfiguration: labelConfiguration1)
         label.text = "labelConfiguration1を適用したdemoLabel1です"
         return label
     }()
 
     lazy var demoLabel2: UILabel = {
-        let label = UILabel(configuration: labelConfiguration1)
+        let label = UILabel(uiKitConfiguration: labelConfiguration1)
         label.text = "labelConfiguration1を適用したdemoLabel2です"
         return label
     }()
@@ -43,13 +43,13 @@ class ViewController: UIViewController {
     }()
 
     lazy var demoLabel3: UILabel = {
-        let label = UILabel(configuration: labelConfiguration2)
+        let label = UILabel(uiKitConfiguration: labelConfiguration2)
         label.text = "labelConfiguration2を適用したdemoLabel3です"
         return label
     }()
 
     lazy var demoLabel4: UILabel = {
-        let label = UILabel(configuration: labelConfiguration2)
+        let label = UILabel(uiKitConfiguration: labelConfiguration2)
         label.text = "labelConfiguration2を適用したdemoLabel4です"
         return label
     }()
@@ -104,7 +104,7 @@ private extension ViewController {
         stackView.addArrangedSubview(imageStackView)
 
         (0...3).forEach { _ in
-            imageStackView.addArrangedSubview(UIImageView(configuration: imageViewConfiguration))
+            imageStackView.addArrangedSubview(UIImageView(uiKitConfiguration: imageViewConfiguration))
         }
 
         stackView.addArrangedSubview(UIView())
