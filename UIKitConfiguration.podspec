@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   spec.name         = 'UIKitConfiguration'
   spec.module_name  = "UIKitConfiguration"
-  spec.version      = '0.0.1'
+  spec.version      = '0.0.2'
   spec.summary      = <<-DESC
   UIKit parameter Configuration.
   DESC
