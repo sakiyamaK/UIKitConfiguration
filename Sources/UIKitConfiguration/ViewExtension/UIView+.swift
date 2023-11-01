@@ -25,6 +25,6 @@ public extension UIView {
     
     convenience init(uiKitConfiguration: UIView.UIKitConfiguration) {
         self.init()
-        configuration.apply(to: self)
+        uiKitConfiguration.apply(to: self)
     }
 }

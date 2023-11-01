@@ -28,6 +28,6 @@ public extension UIViewController {
     
     convenience init(uiKitConfiguration: UIViewController.UIKitConfiguration) {
         self.init()
-        configuration.apply(to: self)
+        uiKitConfiguration.apply(to: self)
     }
 }

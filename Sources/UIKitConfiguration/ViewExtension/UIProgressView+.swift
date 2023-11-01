@@ -28,6 +28,6 @@ public extension UIProgressView {
     
     convenience init(uiKitConfiguration: UIProgressView.UIKitConfiguration) {
         self.init()
-        configuration.apply(to: self)
+        uiKitConfiguration.apply(to: self)
     }
 }

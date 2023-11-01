@@ -28,6 +28,6 @@ public extension UITextView {
     
     convenience init(uiKitConfiguration: UITextView.UIKitConfiguration) {
         self.init()
-        configuration.apply(to: self)
+        uiKitConfiguration.apply(to: self)
     }
 }

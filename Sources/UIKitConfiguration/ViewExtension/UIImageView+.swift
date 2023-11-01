@@ -25,6 +25,6 @@ public extension UIImageView {
     
     convenience init(uiKitConfiguration: UIImageView.UIKitConfiguration) {
         self.init()
-        configuration.apply(to: self)
+        uiKitConfiguration.apply(to: self)
     }
 }

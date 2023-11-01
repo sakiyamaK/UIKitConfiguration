@@ -28,6 +28,6 @@ public extension UIStackView {
     
     convenience init(uiKitConfiguration: UIStackView.UIKitConfiguration) {
         self.init()
-        configuration.apply(to: self)
+        uiKitConfiguration.apply(to: self)
     }
 }

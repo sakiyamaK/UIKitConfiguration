@@ -25,6 +25,6 @@ public extension MKMapView {
     
     convenience init(uiKitConfiguration: MKMapView.UIKitConfiguration) {
         self.init()
-        configuration.apply(to: self)
+        uiKitConfiguration.apply(to: self)
     }
 }

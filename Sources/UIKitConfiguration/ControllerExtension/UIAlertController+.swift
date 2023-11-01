@@ -28,6 +28,6 @@ public extension UIAlertController {
     
     convenience init(uiKitConfiguration: UIAlertController.UIKitConfiguration) {
         self.init()
-        configuration.apply(to: self)
+        uiKitConfiguration.apply(to: self)
     }
 }

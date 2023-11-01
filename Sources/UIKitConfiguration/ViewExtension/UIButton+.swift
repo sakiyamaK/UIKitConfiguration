@@ -28,6 +28,6 @@ public extension UIButton {
     
     convenience init(uiKitConfiguration: UIButton.UIKitConfiguration) {
         self.init()
-        configuration.apply(to: self)
+        uiKitConfiguration.apply(to: self)
     }
 }

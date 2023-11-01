@@ -28,6 +28,6 @@ public extension UICollectionView {
     
     convenience init(uiKitConfiguration: UICollectionView.UIKitConfiguration) {
         self.init()
-        configuration.apply(to: self)
+        uiKitConfiguration.apply(to: self)
     }
 }

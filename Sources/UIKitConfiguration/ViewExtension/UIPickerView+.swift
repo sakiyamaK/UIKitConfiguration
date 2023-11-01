@@ -28,6 +28,6 @@ public extension UIPickerView {
     
     convenience init(uiKitConfiguration: UIPickerView.UIKitConfiguration) {
         self.init()
-        configuration.apply(to: self)
+        uiKitConfiguration.apply(to: self)
     }
 }

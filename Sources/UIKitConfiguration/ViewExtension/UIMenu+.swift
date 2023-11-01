@@ -28,6 +28,6 @@ public extension UIMenu {
     
     convenience init(uiKitConfiguration: UIMenu.UIKitConfiguration) {
         self.init()
-        configuration.apply(to: self)
+        uiKitConfiguration.apply(to: self)
     }
 }

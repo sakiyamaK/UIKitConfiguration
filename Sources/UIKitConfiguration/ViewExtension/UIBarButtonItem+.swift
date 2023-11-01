@@ -32,6 +32,6 @@ public extension UIBarButtonItem {
     
     convenience init(uiKitConfiguration: UIBarButtonItem.UIKitConfiguration) {
         self.init()
-        configuration.apply(to: self)
+        uiKitConfiguration.apply(to: self)
     }
 }

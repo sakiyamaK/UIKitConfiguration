@@ -25,6 +25,6 @@ public extension UILabel {
     
     convenience init(uiKitConfiguration: UILabel.UIKitConfiguration) {
         self.init()
-        configuration.apply(to: self)
+        uiKitConfiguration.apply(to: self)
     }
 }

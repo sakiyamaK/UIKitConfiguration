@@ -28,6 +28,6 @@ public extension UITableView {
     
     convenience init(uiKitConfiguration: UITableView.UIKitConfiguration) {
         self.init()
-        configuration.apply(to: self)
+        uiKitConfiguration.apply(to: self)
     }
 }

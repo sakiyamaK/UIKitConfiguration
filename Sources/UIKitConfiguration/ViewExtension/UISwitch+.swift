@@ -28,6 +28,6 @@ public extension UISwitch {
     
     convenience init(uiKitConfiguration: UISwitch.UIKitConfiguration) {
         self.init()
-        configuration.apply(to: self)
+        uiKitConfiguration.apply(to: self)
     }
 }

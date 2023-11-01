@@ -32,6 +32,6 @@ public extension UIActivityIndicatorView {
     
     convenience init(uiKitConfiguration: UIActivityIndicatorView.UIKitConfiguration) {
         self.init()
-        configuration.apply(to: self)
+        uiKitConfiguration.apply(to: self)
     }
 }

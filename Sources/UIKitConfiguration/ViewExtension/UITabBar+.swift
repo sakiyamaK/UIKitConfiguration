@@ -28,6 +28,6 @@ public extension UITabBar {
     
     convenience init(uiKitConfiguration: UITabBar.UIKitConfiguration) {
         self.init()
-        configuration.apply(to: self)
+        uiKitConfiguration.apply(to: self)
     }
 }
